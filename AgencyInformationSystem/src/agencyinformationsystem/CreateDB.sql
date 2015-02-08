@@ -225,4 +225,11 @@ NOT DEFERRABLE;
 
 --------------------------------------------------------------------------------
 
+insert into Agency (agencyId, agencyName)
+values (1, 'Агентство1'), (2, 'Агентство2'), (3, 'Агентство3');
 
+select * from Agency;
+
+select agencyName
+from Agency
+where agencyId = 2;
